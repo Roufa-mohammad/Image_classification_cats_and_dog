@@ -25,6 +25,7 @@ It is defined as the task of classifying an image from a fixed set of categories
  pytorch custom data class
  
  
+ 
 
 
 
