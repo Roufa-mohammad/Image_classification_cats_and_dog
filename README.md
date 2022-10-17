@@ -34,6 +34,23 @@ It is defined as the task of classifying an image from a fixed set of categories
  Returns all images input and  all images labels
  * def_len_()
  Length method calculates images count
+ ![Screenshot from 2022-10-17 23-34-26](https://user-images.githubusercontent.com/25703407/196250344-76708825-df09-4bb4-9a57-df50e672c18f.png)
+ 
+ Custom Classification model has  two important models
+ * def __init__()
+ * def __forward ()
+I worked on custom classification model used Conv 3 input channel to 16 channel output  by applying (5,5,) filters and used max-pooling of (2,2)
+I worked on standard models likes 
+ * Resnet18
+ * Resnet34
+ * Resnet50
+ * Resnet101
+ * Resnet 152
+ 
+ First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
  
 
 
