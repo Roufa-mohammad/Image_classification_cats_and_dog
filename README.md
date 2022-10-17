@@ -34,6 +34,7 @@ It is defined as the task of classifying an image from a fixed set of categories
  Returns all images input and  all images labels
  * def_len_()
  Length method calculates images count
+ 
 
 
 
