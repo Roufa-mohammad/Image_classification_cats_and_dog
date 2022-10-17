@@ -12,6 +12,17 @@ It is defined as the task of classifying an image from a fixed set of categories
  
  Torch and Tochvision have all the required packages to work on image classification and 
  i used custom and standard models with the help of torch.nn
+ ![Screenshot from 2022-10-17 22-33-21](https://user-images.githubusercontent.com/25703407/196239921-94e8c81a-12c9-454c-a7f8-59b2f9d230e0.png)
+ The data augmentation and normalizing are required before we pass our input to the model  doing such operations our model works properly
+ 
+ cropped the image and resized to (224*224) Horizontal and Vertical crop which uses to improve  composition by removing unwanted regions 
+ * HorizontalFlip of image 
+ * Converted image to tensor
+ * Normalizes images Channels [RGB]
+ 
+
+
+
  
  
  
