@@ -19,6 +19,11 @@ It is defined as the task of classifying an image from a fixed set of categories
  * HorizontalFlip of image 
  * Converted image to tensor
  * Normalizes images Channels [RGB]
+ ![Screenshot from 2022-10-17 22-33-55](https://user-images.githubusercontent.com/25703407/196240520-31fa9619-403e-4d5a-b403-be674dfc55a9.png)
+ I gave the local image path to the variable and pass this image path to Dataloader this Dataloader have a parameter like batch size, num _works, etc..
+ 
+ pytorch custom data class
+ 
  
 
 
