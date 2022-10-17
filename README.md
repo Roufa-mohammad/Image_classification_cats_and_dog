@@ -23,7 +23,22 @@ It is defined as the task of classifying an image from a fixed set of categories
  I gave the local image path to the variable and pass this image path to Dataloader this Dataloader have a parameter like batch size, num _works, etc..
  
  pytorch custom data class
+ ![Screenshot from 2022-10-17 22-46-30](https://user-images.githubusercontent.com/25703407/196241526-7e5a7aee-7341-4033-8c6c-9282dae5c4a0.png)
+ I have used custom data set class if we want to make a pytorch custom class we have to pass Pytorch Dataset to the class then it would become a pytorch
+ class
  
+ Custom dataset classes have three important methods
+ * def_init_ ()
+ In this, we pass root path and inside in this method augmentation part works
+ * def__getitem__()
+ Returns all images input and  all images labels
+ * def_len_()
+ Length method calculates images count
+
+
+
+
+
  
  
 
