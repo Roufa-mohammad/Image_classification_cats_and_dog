@@ -39,10 +39,12 @@ It is defined as the task of classifying an image from a fixed set of categories
  Custom Classification model has  two important models
  * def __init__()
  * def __forward ()
- ![Screenshot from 2022-10-17 23-43-39](https://user-images.githubusercontent.com/25703407/196251906-1479d24d-b7d7-4a1e-90fb-245f0e23ad8c.png)
+ 
  
  Train Model
+ ![Screenshot from 2022-10-17 23-48-03](https://user-images.githubusercontent.com/25703407/196252715-21e28ba2-82be-4209-99a1-4d2d1cad7ccf.png)
  
+ ![Screenshot from 2022-10-17 23-43-39](https://user-images.githubusercontent.com/25703407/196251906-1479d24d-b7d7-4a1e-90fb-245f0e23ad8c.png)
  
  I have run 20 epochs calculated CrossEntrophy loss and applied  optimizer like SGD and Adam to my model
 I worked on custom classification model used Conv 3 input channel to 16 channel output  by applying (5,5,) filters and used max-pooling of (2,2)
@@ -53,14 +55,19 @@ I worked on standard models likes
  * Resnet101
  * Resnet 152
  
- First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
- 
+ Model names               | Accuracy
+--------------             | -------------
+Resnet18                   | 96
+Resnet101                  | 89
+Resnet34                   | 93 
+Resnet50                   | 94
+Custom CNN model sequential| 54
+Custom CNN model           | 52
+Custom CNN onlyConv layer  | 64
+Custom_class Custom_model  | 75.33:Ants 42, bees 71
+                             
 
-
-
+    
 
 
  
